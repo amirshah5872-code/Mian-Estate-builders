@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mian Estate & Builders | Luxury Real Estate & Construction</title>
+    <meta name="description"
+        content="Mian Estate & Builders - Modern property advisory, sales, and construction services in Pakistan. Premium luxury homes and grey structure developments.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo-group">
+                <div class="logo">MIAN ESTATE & BUILDERS</div>
+                <div class="logo-subtitle">Pak Arab Society, Feroz Pur Road Lahore.</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" data-i18n="nav_home">Home</a></li>
+                <li><a href="#about" data-i18n="nav_about">About</a></li>
+                <li><a href="#services" data-i18n="nav_services">Services</a></li>
+                <li><a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a></li>
+                <li><a href="#tools" data-i18n="nav_tools">Tools</a></li>
+                <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+                <li class="lang-switch-item">
+                    <button onclick="toggleLanguage()" id="langToggle" class="lang-btn">اردو</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1 class="reveal-text" data-i18n="hero_h1">Building Your <span>Future</span></h1>
+            <p class="reveal-text" data-i18n="hero_p">Premium Property Solutions & Architectural Excellence</p>
+            <a href="#contact" class="btn btn-primary" data-i18n="hero_btn">Get Started</a>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container grid">
+            <div class="about-image">
+                <img src="images/interior.png" alt="Luxury Interior">
+            </div>
+            <div class="about-text">
+                <h2 class="section-title" data-i18n="about_title">Who We Are</h2>
+                <p data-i18n="about_desc">Welcome to Mian Estate & Builders, founded by Mian Akbar. We specialize in
+                    high-end real estate and
+                    modern construction. From grey structures to turn-key luxury homes, we deliver excellence in every
+                    brick.</p>
+                <div class="stats">
+                    <div class="stat"><span data-i18n="stat_exp_val">25+</span> <span data-i18n="stat_exp_label">Years
+                            Experience</span></div>
+                    <div class="stat"><span data-i18n="stat_proj_val">250+</span> <span
+                            data-i18n="stat_proj_label">Projects Done</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title text-center" data-i18n="services_title">Our Expertise</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">🏢</div>
+                    <h3 data-i18n="service_1_h3">Premium Real Estate</h3>
+                    <p data-i18n="service_1_p">Hmary pas commercial shops, commercial or residential plots aur bnay
+                        bnaay modern tarz k luxury
+                        or spanish homes mojood hen.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🧱</div>
+                    <h3 data-i18n="service_2_h3">Plot Aapka, Zimadari Hamari</h3>
+                    <p data-i18n="service_2_p">Lahore ya Lahore se bahar kahin bhi aapka plot ho, us par aik behatreen
+                        ghar bna kar dena ab
+                        hamari zimadari hai, A + material k sath.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">✨</div>
+                    <h3 data-i18n="service_3_h3">DHA Phase 9 Prism</h3>
+                    <p data-i18n="service_3_p">Ring Road DHA Prism 9 mein perfection k sath (Construction) ke liye
+                        Experienced Developer Mian
+                        Akbar
+                        ki khidmat hasil kren.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties" class="properties">
+        <div class="container">
+            <h2 class="section-title text-center" data-i18n="properties_title">Featured Properties</h2>
+            <p class="text-center" style="margin-bottom: 4rem; opacity: 0.7;" data-i18n="properties_desc">Explore our
+                curated selection of premium
+                real estate.</p>
+            <div class="properties-grid">
+                <div class="property-card">
+                    <div class="property-badge" data-i18n="badge_sale">For Sale</div>
+                    <div class="property-image">
+                        <img src="images/property_1.png" alt="Luxury Villa">
+                    </div>
+                    <div class="property-content">
+                        <div class="property-price" data-i18n="prop_1_price">PKR 8.5 Crore</div>
+                        <h3 data-i18n="prop_1_h3">Royal Skyline Villa</h3>
+                        <p data-i18n="prop_1_p">Pak Arab Housing Scheme, Lahore</p>
+                        <div class="property-features">
+                            <div class="feature"><span data-i18n="feat_bed">🛏️ 5 Beds</span></div>
+                            <div class="feature"><span data-i18n="feat_bath">🚿 6 Baths</span></div>
+                            <div class="feature"><span data-i18n="feat_area">📏 1 Kanal</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <div class="property-badge" data-i18n="badge_new">New Launch</div>
+                    <div class="property-image">
+                        <img src="images/property_2.png" alt="Modern Apartment">
+                    </div>
+                    <div class="property-content">
+                        <div class="property-price" data-i18n="prop_2_price">PKR 1.2 Crore</div>
+                        <h3 data-i18n="prop_2_h3">Elite Heights Plaza</h3>
+                        <p data-i18n="prop_2_p">Ferozepur Road, Lahore</p>
+                        <div class="property-features">
+                            <div class="feature"><span data-i18n="feat_comm">🏙️ Commercial</span></div>
+                            <div class="feature"><span data-i18n="feat_grey">🏗️ Grey Structure</span></div>
+                            <div class="feature"><span data-i18n="feat_area_2">📏 5 Marla</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools" class="tools-section">
+        <div class="container">
+            <h2 class="section-title text-center" data-i18n="tools_title">Premium Planning Tools</h2>
+            <div class="calculator-container">
+                <div class="calc-tabs">
+                    <button class="calc-tab active" onclick="switchCalc('loan')" data-i18n="tab_loan">Loan
+                        Calculator</button>
+                    <button class="calc-tab" onclick="switchCalc('installment')" data-i18n="tab_inst">Installment
+                        Plan</button>
+                    <button class="calc-tab" onclick="switchCalc('tax')" data-i18n="tab_tax">Tax Estimator</button>
+                </div>
+
+                <div id="loan-calc" class="calc-content">
+                    <div class="calc-form">
+                        <div class="calc-input-group">
+                            <label id="label-1">Property Value (PKR)</label>
+                            <input type="number" id="prop-value" value="10000000" oninput="runCalc()">
+                        </div>
+                        <div class="calc-input-group">
+                            <label id="label-2">Down Payment (%)</label>
+                            <input type="number" id="down-payment" value="20" oninput="runCalc()">
+                            <select id="filer-status"
+                                style="display:none; padding:1rem; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:white;"
+                                onchange="runCalc()">
+                                <option value="0.15">Filer (15%)</option>
+                                <option value="0.30">Non-Filer (30%)</option>
+                            </select>
+                        </div>
+                        <div class="calc-input-group">
+                            <label id="label-3">Interest Rate (%)</label>
+                            <input type="number" id="interest-rate" value="12" oninput="runCalc()">
+                        </div>
+                        <div class="calc-input-group">
+                            <label id="label-4">Duration (Years)</label>
+                            <input type="number" id="duration" value="20" oninput="runCalc()">
+                        </div>
+                        <div class="calc-result">
+                            <h4 id="calc-title" data-i18n="calc_result_title">Monthly Payment Estimate</h4>
+                            <div id="loan-result">PKR 88,085</div>
+                            <h4 style="margin-top: 1.5rem; font-size: 0.8rem; opacity: 0.6;" data-i18n="calc_rem_title">
+                                Remaining Balance</h4>
+                            <div id="remaining-result" style="font-size: 1.2rem; opacity: 0.9;">PKR 8,000,000</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title" data-i18n="portfolio_title">Selected Projects</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item large">
+                    <img src="images/hero.png" alt="Luxury Home">
+                    <div class="item-overlay">
+                        <h3 data-i18n="port_1_h3">Grand Residency</h3>
+                        <p data-i18n="port_1_p">Luxury Construction</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/grey_structure.png" alt="Grey Structure">
+                    <div class="item-overlay">
+                        <h3 data-i18n="port_grey_h3">Sector A - Project</h3>
+                        <p data-i18n="port_grey_p">Grey Structure Development</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/portfolio_2.png" alt="Construction Site">
+                    <div class="item-overlay">
+                        <h3 data-i18n="port_2_h3">Modern Build</h3>
+                        <p data-i18n="port_2_p">Under Construction</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/portfolio_3.png" alt="Facade Detail">
+                    <div class="item-overlay">
+                        <h3 data-i18n="port_3_h3">Marble Palace</h3>
+                        <p data-i18n="port_3_p">Premium Finishing</p>
+                    </div>
+                </div>
+                <div class="portfolio-item large">
+                    <img src="images/portfolio_4.png" alt="Swimming Pool">
+                    <div class="item-overlay">
+                        <h3 data-i18n="port_4_h3">Aqua Oasis</h3>
+                        <p data-i18n="port_4_p">Luxury Lifestyle</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title text-center" style="color: white; margin-bottom: 4rem;"
+                data-i18n="testimonials_title">Client Stories</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text" data-i18n="test_1_text">"Mian Estate delivered our dream home 2 months
+                        ahead of schedule. The
+                        quality of the grey structure is exceptional!"</p>
+                    <div class="client-info">
+                        <div class="client-img"></div>
+                        <div class="client-name">
+                            <h4 data-i18n="test_1_name">Sheikh Salman</h4>
+                            <p data-i18n="test_1_pos">Business Owner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text" data-i18n="test_2_text">"The most transparent real estate service in
+                        Lahore. Mian Akbar
+                        personally guided us through the entire process."</p>
+                    <div class="client-info">
+                        <div class="client-img"></div>
+                        <div class="client-name">
+                            <h4 data-i18n="test_2_name">Ali Raza</h4>
+                            <p data-i18n="test_2_pos">Investor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <div class="container">
+            <h2 class="section-title text-center" data-i18n="team_title">Meet the Visionary</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-img">
+                        <img src="images/ceo_akbar.jpg" alt="Mian Akbar">
+                    </div>
+                    <h3>Mian Akbar</h3>
+                    <p data-i18n="ceo_pos">Founder & CEO</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <h2 data-i18n="footer_title">Contact Us</h2>
+                <p data-i18n="footer_desc">Ready to build your dream? Reach out today.</p>
+                <p style="margin-top: 2rem;" data-i18n="footer_addr">📍 494 commercial block F Pak arab housing scheme
+                    Ferozepur road Lahore</p>
+                <p style="margin-top: 0.5rem;">
+                    <a href="https://maps.app.goo.gl/LqgHcLhikZuCE5wV8" target="_blank"
+                        style="color: #d4af37; text-decoration: none; font-size: 0.9rem; display: flex; align-items: center; gap: 0.5rem; transition: opacity 0.3s;"
+                        data-i18n="footer_map">
+                        <span>🗺️</span> View on Google Maps
+                    </a>
+                </p>
+                <p data-i18n="footer_phone1">📞 0322 4406590</p>
+                <p data-i18n="footer_phone2">📞 0300 8467938</p>
+                <p data-i18n="footer_email">📧 mianpakarb156c@gmail.com</p>
+            </div>
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required data-i18n-placeholder="contact_name">
+                <input type="email" id="email" placeholder="Your Email" required data-i18n-placeholder="contact_email">
+                <input type="tel" id="phone" placeholder="Your Phone Number" required
+                    data-i18n-placeholder="contact_phone">
+                <textarea id="message" placeholder="Message" rows="4" required
+                    data-i18n-placeholder="contact_msg"></textarea>
+                <button type="submit" class="btn btn-primary" data-i18n="contact_send">Send Message</button>
+                <a href="https://wa.me/923224406590" class="btn btn-whatsapp" target="_blank">
+                    <span data-i18n="whatsapp_btn"><span>💬</span> Chat on WhatsApp</span>
+                </a>
+            </form>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mian Estate & Builders. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
